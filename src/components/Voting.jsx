@@ -2,7 +2,7 @@ import React from 'react';
 
 export default React.createClass({
   getPair: function() {
-    return ['Trainspotting', '28 Days Later', 'BvS'];
+    return this.props.pair || [];
   },
 
   render: function() {
